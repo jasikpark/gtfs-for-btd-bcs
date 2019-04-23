@@ -1,4 +1,4 @@
-language: python
+language: python:2.7
 
 install: git clone https://github.com/google/transitfeed.git
 
