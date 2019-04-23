@@ -1,5 +1,5 @@
 language: python:2.7
 
-install: git clone https://github.com/google/transitfeed.git && python transitfeed/setup.py install
+install: git clone https://github.com/google/transitfeed.git
 
 script: python transitfeed/feedvalidator.py -no gtfs/
