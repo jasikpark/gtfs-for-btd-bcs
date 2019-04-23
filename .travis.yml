@@ -2,4 +2,4 @@ language: python:2.7
 
 install: git clone https://github.com/google/transitfeed.git
 
-script: python transitfeed/feedvalidator.py -no gtfs/
+script: python transitfeed/feedvalidator.py -n --output=CONSOLE gtfs/
